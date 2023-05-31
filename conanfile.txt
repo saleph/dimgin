@@ -1,5 +1,7 @@
 [requires]
 gtest/1.10.0
+freeglut/3.4.0
+opengl/system
 
 [generators]
 CMakeDeps
