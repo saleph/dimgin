@@ -9,7 +9,7 @@ find_package(GLUT REQUIRED)
 
 enable_testing()
 file(GLOB APP_SOURCES "src/**.cpp")
-file(GLOB TEST_SOURCES "tests/*.cpp")
+file(GLOB TEST_SOURCES "tests/**.cpp")
 
 add_library(app STATIC 
     ${APP_SOURCES}
